@@ -33,8 +33,9 @@ whileLoop(5)
 
 
 function doWhileLoop(int){
+  var i = 0
   function incrementVariable() {
-  int = int + 1;
+  i = i + 1;
 }
   do {
     console.log('I run once regardless.')
