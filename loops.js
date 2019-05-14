@@ -30,14 +30,17 @@ function whileLoop(number){
 
 whileLoop(5)
 
-function incrementVariable(i) {
-  i = i + 1;
-  return i;
+
+
+function doWhileLoop(int){
+  function incrementVariable() {
+  int = int + 1;
+}
+  do {
+    console.log('I run once regardless.')
+  }
+  while (incrementVariable() < int)
 }
 
-do {
-  console.log("doo-bee-doo-bee-doo");
-} while (incrementVariable(2) < 5);
-
-
+doWhileLoop(10)
 
